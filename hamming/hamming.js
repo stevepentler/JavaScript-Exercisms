@@ -1,6 +1,7 @@
 "use strict";
 
-var Hamming = function Hamming() {};
+function Hamming() {};
 
 
-exports.Hamming = Hamming;
+
+module.exports = Hamming;
