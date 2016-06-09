@@ -1,14 +1,9 @@
-//
-// This is only a SKELETON file for the "Bob" exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+"use strict";
 
-var Bob = function() {};
+const Bob = function() {};
 
 Bob.prototype.hey = function(input) {
-//
-// YOUR CODE GOES HERE
-//
+  return "Whatever."
 };
 
 module.exports = Bob;
