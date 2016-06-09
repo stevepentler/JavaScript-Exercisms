@@ -3,10 +3,10 @@
 const Bob = function() {};
 
 Bob.prototype.hey = function(input) {
-  if (input.slice(-1) === "?") {
-    return "Sure."
-  } else if (input === input.toUpperCase()) {
+  if (input === input.toUpperCase()) {
     return "Whoa, chill out!"
+  } else if (input.slice(-1) === "?") {
+    return "Sure."
   } else {
     return "Whatever."
   }
