@@ -15,9 +15,7 @@ Hamming.prototype = {
 function compareString(string1, string2) {
   let difference = 0
   Array.from(string1).forEach(function(char, index) {
-    if (char !== Array.from(string2)[index]) {
-      difference += 1
-    }
+    if (char !== Array.from(string2)[index]) { difference += 1 }
   })
   return difference
 }
